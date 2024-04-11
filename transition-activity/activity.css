@@ -1,1 +1,17 @@
-
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  button {
+    background-color: ghostwhite;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 2s; /* Transition property to change background-color over 2 seconds */
+  }
+  
+  button:hover {
+    background-color: cornflowerblue; /* Change background-color on hover */
+  }
